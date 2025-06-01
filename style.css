@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.container{
+    border: 1px solid black;
+    box-shadow: 0px 1px 30px;
+    border-radius: 10px;
+    min-width: 400px;
+    position: relative;
+    min-height: 550px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(44, 44, 44);
+}
+
+.buttons{
+    display: grid;
+    grid-template-areas: 
+    "clear clear rest devide"
+    "sieben acht neun dat"
+    "vier funf sexs minus"
+    "eins zwei drei plus"
+    "null null punkt ecual";
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
+    gap: 15px;
+    border-radius: 5px;
+}
+
+#clear{
+    grid-area: clear;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+}
+
+
+#rest{
+    grid-area: rest;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+}
+
+#devide{
+    grid-area: devide;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: red;
+}
+
+#dat{
+    grid-area: dat;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: red;
+}
+
+#minus{
+    grid-area: minus;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: red;
+}
+
+#plus{
+    grid-area: plus;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: red;
+}
+
+
+#ecual{
+    grid-area: ecual;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: red;
+}
+
+
+#plus:hover,#minus:hover,#devide:hover,#dat:hover,#ecual:hover{
+    background-color: beige;
+}
+
+
+
+#sieben{
+    grid-area: sieben;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+#acht{
+    grid-area: acht;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+
+
+#neun{
+    grid-area: neun;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+
+#vier{
+    grid-area: vier;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+#funf{
+    grid-area: funf;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+#sexs{
+    grid-area: sexs;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+#eins{
+    grid-area: eins;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+
+#zwei{
+    grid-area: zwei;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+#drei{
+    grid-area: drei;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+
+#punkt{
+    grid-area: punkt;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+#null{
+    grid-area: null;
+    border: 0px hidden grey;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: grey;
+    color: white ;
+}
+
+#sieben:hover,#acht:hover,#neun:hover,
+#vier:hover,#funf:hover,#sexs:hover,
+#eins:hover,#zwei:hover,#drei:hover,#null:hover,#punkt:hover{
+    background-color: rgb(255, 254, 254);
+    color: black;
+}
+
+
+#show{
+    max-width: 80%;
+    border: 0px hidden gray;
+    max-height: 75px;
+    font-size: 30px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    outline: none;
+}
+
+
+
+
+
+
+
